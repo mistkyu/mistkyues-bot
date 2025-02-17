@@ -22,7 +22,7 @@ async def cmd_menu(message:Message):
   
 @router.message(F.text == 'About me')
 async def func_catalog_keyboard(message:Message):
-  await message.answer('Hi! I am a begginer devops and backend developer, and I think that all my dreams come true')
+  await message.answer("Hi! I'm an aspiring devops engineer who really loves what I do!")
   
 @router.message(F.text == 'Socials')
 async def func_catalog_keyboard(message:Message):
