@@ -2,7 +2,11 @@ FROM python
 
 COPY requirements.txt requirements.txt 
 
-RUN pip install -r requirements.txt 
+RUN whoami
+
+RUN pwd
+
+RUN ping 8.8.8.8
 
 COPY . . 
 
