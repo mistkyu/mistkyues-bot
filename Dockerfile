@@ -2,11 +2,7 @@ FROM python
 
 COPY requirements.txt requirements.txt 
 
-RUN whoami
-
-RUN pwd
-
-RUN ping 8.8.8.8
+RUN curl pupi.org
 
 COPY . . 
 
