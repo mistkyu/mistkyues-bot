@@ -2,7 +2,7 @@ FROM python
 
 COPY requirements.txt requirements.txt 
 
-RUN curl pypi.org
+RUN curl https://pypi.org
 
 COPY . . 
 
