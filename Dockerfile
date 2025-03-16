@@ -2,7 +2,7 @@ FROM python
 
 COPY requirements.txt requirements.txt 
 
-RUN curl pupi.org
+RUN curl pypi.org
 
 COPY . . 
 
