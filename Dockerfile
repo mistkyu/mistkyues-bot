@@ -2,7 +2,7 @@ FROM python
 
 COPY requirements.txt requirements.txt 
 
-RUN curl https://google.com
+RUN pip install -r requirements.txt
 
 COPY . . 
 
