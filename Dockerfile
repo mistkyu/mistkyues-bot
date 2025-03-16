@@ -1,6 +1,4 @@
-FROM python:3.12
-
-WORKDIR /mistkyues-bot-image
+FROM python
 
 COPY requirements.txt requirements.txt 
 
